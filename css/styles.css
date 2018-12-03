@@ -498,12 +498,29 @@ text-align: justify;
     }
 }
 
-.parlex-back {
+
+@media only screen and (min-width: 768px){
+    .parlex-back{
+        padding: 200px 0px;
+        margin-top: -188px;
+        background-color: rgba(0, 0, 0, 0.37);
+        color: #FDFDFD !important;
+}
+}
+
+@media only screen and (max-width: 768px){
+    .parlex-back{
+    padding: 200px 0px;
+    background-color: rgba(0, 0, 0, 0.37);
+    color: #FDFDFD !important;
+    }
+}
+/* .parlex-back {
     padding: 200px 0px;
     margin-top: -188px;
     background-color: rgba(0, 0, 0, 0.37);
     color: #FDFDFD !important;
-}
+} */
 /*Skills*/
 .skilltitle {
 text-align: right;
