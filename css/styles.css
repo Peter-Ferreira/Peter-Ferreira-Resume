@@ -305,7 +305,7 @@ background: none;
     }
 
 .page-section h2 {
-    color: #1e677a;
+    color: white;
 }
 
 .page-section p {
@@ -445,8 +445,19 @@ padding:20px 10px;
 }
 #aboutUs .txtHead .fa {
 font-size: 58px;
-color: #5E5E5E;
+/* color: #5E5E5E; */
 }
+.fa-desktop{
+    color: #eac251;
+}
+.fa-css3{
+    color:#1e677a;
+}
+.fa-lightbulb-o{
+    color:#bc2c31;
+}
+
+
 .tileBox p{
     background-color: #f0f0f0;
 font-size: 15px;
@@ -682,7 +693,7 @@ display: inherit;
   text-align: left;
 }
 #timeline .timeline-movement .timeline-item .timeline-panel.debits .timeline-panel-ul span.importo {
-  color: #d35354;
+  color: #bc2c31;
   font-size: 1.3em;
 }
 
