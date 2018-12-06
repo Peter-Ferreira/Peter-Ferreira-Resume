@@ -305,7 +305,7 @@ background: none;
     }
 
 .page-section h2 {
-    color: white;
+    color: #c0392b;;
 }
 
 .page-section p {
@@ -1269,3 +1269,9 @@ footer {
         user-select: none;
         -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     }
+
+#socialLinks{
+    color:#c0392b; 
+    padding-top: 45px;
+}
+
